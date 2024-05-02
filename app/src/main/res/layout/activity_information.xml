@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F0EBE3"
+    tools:context=".InformationActivity">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:text=" Welcome to GreenOasis! We're your go-to destination for all things floral and vibrant. At BloomBright, we believe in the power of flowers to brighten up any day and add a touch of beauty to every moment.  Our mission is simple: to bring joy and inspiration to our customers through our carefully curated selection of blooms and botanical wonders. Whether you're looking to celebrate a special occasion, add a splash of color to your home, or simply indulge in the beauty of nature, BloomBright is here to make it happen.  With a passion for excellence and a commitment to customer satisfaction, we strive to provide the highest quality products and exceptional service to each and every one of our valued customers. Our team of floral experts is dedicated to helping you find the perfect arrangement or gift that perfectly captures the essence of your vision.  Thank you for choosing BloomBright. We're honored to be a part of your floral journey and look forward to bringing a little bit of brightness into your life. "
+        android:textColor="#1A4D2E"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>
